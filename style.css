@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar{            
+    background-color:#6F6AF7;
+    
+}
+
+.content{
+  margin-right: 10%;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Delius Unicase", cursive;
+}
+
+ul{
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+ul > li{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+li > a{
+  margin: 0 1.5em;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.card{
+  width: 30px;
+  height: 20px;
+  margin-left:10% ;
+  margin-right: 10px;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+}
+.search-field{
+  cursor: pointer;
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  transform: translatex(-188%);
+  height: 0.8rem;
+  width: 0.8em;
+  top: 26%;
+}
+
+.search{
+  width: 200px;
+  height: 31px;
+  padding: 0 0 0 15px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+.search::placeholder{
+  font-size: 12px;
+  font-family: "DM Sans", sans-serif;
+  opacity: 0.8;
+}
+
+.section{
+  margin: 120px 0 0 30px;
+}
+
+.section1{
+  display:flex;
+  margin-top: 7%;
+  justify-content: space-between;
+  width: 95%;
+}
+.textarea{
+  cursor: pointer;
+  width: 772px;         
+  margin: 0 2% 0 30px;
+  border-radius: 20px;
+  background-color: #E5D8FF;
+}
+.para{
+  padding: 20px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 42px;
+  text-align: left;
+  color: #6F7373;
+
+}
+.image{
+  border-radius: 20px;
+  margin: 0 0 0 7%;
+}
+.image-icon{
+  height: 300px; 
+  width: 100%;
+  }
+
+.social-media{
+  display: flex;
+  /* margin-left: 20px; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  position: sticky;
+  transform: translateY(-150%);
+  top: 43vh;
+}
+.social-media > img{
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  margin-bottom: 2px;
+  border-radius: 4px;
+  
+}
+
+.section2{
+  margin: 0 5% 0 5%;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box1{
+  width: 200px;
+  height: 100px;
+  border-radius: 11px;
+  color: white;
+  padding: 10px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.bx1{
+  background-color: #929DFF;
+}
+.bx2{
+  background-color: #734CF2;
+}
+.bx3{
+  background-color: #D288FF;
+}
+.bx4{
+  background-color: #000000;
+}
+
+.section3{
+  margin: 7% 5% 0 5%;
+  background-color: #483EFF;
+  height: 400px;
+  border-radius: 15px;
+  display: flex;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 0 0 8%;
+  justify-content: space-evenly;
+}
+.btns > button{
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  text-align: center;
+  width: 270px;
+  height: 90px;
+  border-radius: 12px;
+}
+.info-btn{
+  border: none;
+  outline: none;
+  background-color: #BCE0F6;
+}
+.bookmark-btn{
+  background-color: inherit;
+  border: 3px solid white;
+  color: white;
+}
+.setting-btn{
+      color: white;
+      background-color: inherit;
+      border: 3px solid white;         
+}
+
+.info-card{
+  cursor: pointer;
+  margin: 20px 20px 20px 40px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.details > h2{
+  font-family: Inter;
+  color: #04285A;
+  margin: 35px 0 25px 35px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.085em;
+  text-align: left;
+}
+.details > ul{
+  color:#04285A;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: start;
+  margin: 0 0 0 50px;
+  line-height: 45px;
+
+  >li{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+
+    >span{
+      font-family: Roboto;
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 0.085em;
+      color: #04285A;
+    }
+  }
+}
+.next-btn{
+  
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin: 110px 20px 20px 0;
+  
+
+  > button{
+    cursor: pointer;
+    font-family: Roboto;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    width: 160px;
+    height: 60px;
+    border-radius: 9px;
+
+    >img{
+      height: 20px;
+      width: 30px;
+    }
+  }
+}
+
+.chatbot{
+  position: fixed;
+  right: 2em;
+  bottom: 10px;
+  right: 40px;
+  height: 5em;
+  cursor: pointer;
+  width: 5em;
+
+  .chatbot-icon{
+    border-radius: 50%;
+    height: 100px;
+  }
+}
